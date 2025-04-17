@@ -28,3 +28,24 @@ body {
     object-fit: cover;
 }
 
+button {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
