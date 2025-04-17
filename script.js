@@ -12,7 +12,7 @@ const prevBtn = document.querySelector("[data-btn-prev]");
 const nextBtn = document.querySelector("[data-btn-next]");
 
 let currentIndex = 0;
-const ANIMATION_TIME = 0.5;
+const ANIMATION_TIME = 0.4;
 
 const setupSlides = () => {
     images.forEach((imageUrl, index) => {
